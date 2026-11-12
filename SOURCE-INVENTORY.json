@@ -1,0 +1,905 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "30aa26c3ebcebdd7d221227aab005d5193a63fec400319aada12a386e9632188"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "8f022e2418c091c34aa28f1ae16cb8b89113c234cc2a1d2433974adbb6bf40cd"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "842d8a01ac0b9560d56811c2cbac03cef3493f55be381de1d01e74c0fa0631b1"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "de8c1975372ad7f62eaf057f45da24441dafb7d52eede31bf67f2a4f9fdc1aae"
+    },
+    {
+      "path": "desktop/ARCHITECTURE.md",
+      "sha256": "1baeec6d9728ba863a7f2a43d5113ef11cd0b556829d4ffdd60f2791659a8f5e"
+    },
+    {
+      "path": "desktop/DESIGN.md",
+      "sha256": "d48892d698a686476fe1191fc80d02d68da9c559ed617b5271d5b4a2e88735fb"
+    },
+    {
+      "path": "desktop/INSTALL-Windows.md",
+      "sha256": "d2cbf95d7f13482153cc95ee9fb43890f678eb5ffaf15fb8ab3403b3ae462e07"
+    },
+    {
+      "path": "desktop/INSTALL-macOS.md",
+      "sha256": "d130cb51bbb5018537258a1a083abc25a68a92ccc00620f55e03241b9106c6be"
+    },
+    {
+      "path": "desktop/KEYMAP.md",
+      "sha256": "404eb5e1a2ab039bae63dd57cbd0d034ccdd0fea689e0d03a3239cdac7e4a17f"
+    },
+    {
+      "path": "desktop/RELEASE.md",
+      "sha256": "d7cd3c7704787b65cc0541404ae2221f7da7b9e4e351e9892dc46e96e0d56dba"
+    },
+    {
+      "path": "desktop/THIRD_PARTY_NOTICES.txt",
+      "sha256": "fc3e1331c468e31a78ae30e67939432b70430c753948b5c2e7e857ae0b938b14"
+    },
+    {
+      "path": "desktop/TROUBLESHOOTING.md",
+      "sha256": "da04dc9dae8bc569d8053a245d7fed528a5c6cae724ba09d0c983421f2216bbb"
+    },
+    {
+      "path": "desktop/VERSION",
+      "sha256": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67"
+    },
+    {
+      "path": "desktop/assets/dmg/background.png",
+      "sha256": "ff99f5f13b2b1c65d1e75ae8c20a7d1284e2e31e71b3d9c936f0097dafa93e31"
+    },
+    {
+      "path": "desktop/assets/dmg/background@2x.png",
+      "sha256": "af7f23e0ba727ae32bdb680a6a3bb5bc163fc12684b03130505369c779212903"
+    },
+    {
+      "path": "desktop/docs/PLATFORM-ACTIONS.md",
+      "sha256": "d1ba5512e23e88aba26cd445a1b25685f077db6620a672137123b03c9dc70b7d"
+    },
+    {
+      "path": "desktop/docs/SOURCE-README.md",
+      "sha256": "2791e760f8ad0761cf43212865bb3d959daea9312402de0ab236e379682e4454"
+    },
+    {
+      "path": "desktop/docs/WINDOWS-TESTING.md",
+      "sha256": "ca9ab9b3acb3ed942d401ddf23edecc07352c3be82801dc91ee9da0258b188e0"
+    },
+    {
+      "path": "desktop/docs/screenshots/mapping.png",
+      "sha256": "09bc3f85c7e1ed9c5c4870752a4dc99c765a6760e966d77b0708d9c3488e018e"
+    },
+    {
+      "path": "desktop/docs/screenshots/voice.png",
+      "sha256": "a7fea24bcfc7f492cf1022031a3279bd9a481789dc94ca13323612feccb534e6"
+    },
+    {
+      "path": "desktop/entry.py",
+      "sha256": "a1a575724646240e17e576ad6dad587f4b8801a3b9388a4579dedbda43d0af28"
+    },
+    {
+      "path": "desktop/licenses/GPL-3.0.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "desktop/licenses/LGPL-2.1.txt",
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+    },
+    {
+      "path": "desktop/licenses/LGPL-3.0.txt",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+    },
+    {
+      "path": "desktop/licenses/SOURCE.md",
+      "sha256": "e0a2d219b75f1feebd8fbb3ad24156745c2e80b9e658cdbd8afbd9ff8ace0b15"
+    },
+    {
+      "path": "desktop/licenses/macos-sources.json",
+      "sha256": "a0b3108db4b0575db9c1bd9c69c6bd8f601f20b04be013c3cbafe4a277d28794"
+    },
+    {
+      "path": "desktop/licenses/python-standalone.json",
+      "sha256": "7aa33cf637a01501fd0deef6d15152d6b5f389791dc14494a04fc03ee37671e5"
+    },
+    {
+      "path": "desktop/licenses/vendor/README.md",
+      "sha256": "113ce2745f28dee2141b5548373e7fdb31156c2e24158386a47852d4e3d53735"
+    },
+    {
+      "path": "desktop/licenses/vendor/SOURCES.json",
+      "sha256": "e8dc7bce352f4e3727d7d00da1b15eaf8bd1e63b5b136d9992f1278510f16dd5"
+    },
+    {
+      "path": "desktop/licenses/vendor/ffmpeg-9.0.1/COPYING.GPLv2",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "desktop/licenses/vendor/ffmpeg-9.0.1/COPYING.GPLv3",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "desktop/licenses/vendor/ffmpeg-9.0.1/COPYING.LGPLv2.1",
+      "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+    },
+    {
+      "path": "desktop/licenses/vendor/ffmpeg-9.0.1/COPYING.LGPLv3",
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "desktop/licenses/vendor/ffmpeg-9.0.1/LICENSE.md",
+      "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+    },
+    {
+      "path": "desktop/licenses/vendor/pyside6-6.12.0/Apache-2.0.txt",
+      "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+    },
+    {
+      "path": "desktop/licenses/vendor/pyside6-6.12.0/BSD-3-Clause.txt",
+      "sha256": "62803a6fcceef9091a129d7293d2469ea332b35d30f5e1bc4c628a9f35f3d29c"
+    },
+    {
+      "path": "desktop/licenses/vendor/pyside6-6.12.0/GFDL-1.3-no-invariants-only.txt",
+      "sha256": "110535522396708cea37c72a802c5e7e81391139f5f7985631c93ef242b206a4"
+    },
+    {
+      "path": "desktop/licenses/vendor/pyside6-6.12.0/GPL-2.0-only.txt",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "desktop/licenses/vendor/pyside6-6.12.0/GPL-3.0-only.txt",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "desktop/licenses/vendor/pyside6-6.12.0/LGPL-3.0-only.txt",
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "desktop/licenses/vendor/pyside6-6.12.0/LicenseRef-Qt-Commercial.txt",
+      "sha256": "9b1f50aae6267f9d5e0ceb6775ee86450262c25ec7c0573e151fe5d3f18a4700"
+    },
+    {
+      "path": "desktop/licenses/vendor/pyside6-6.12.0/Qt-GPL-exception-1.0.txt",
+      "sha256": "40678d338ce53cd93f8b22b281a2ecbcaa3ee65ce60b25ffb0c462b0530846b2"
+    },
+    {
+      "path": "desktop/native/device-helper/Capture.c",
+      "sha256": "591016ee94754a0c278b5a1f5eb95ede384ddee3701c3db526948bf5856869a4"
+    },
+    {
+      "path": "desktop/native/device-helper/Client.m",
+      "sha256": "f8ced25339a672907a1c843e4130bae64866fc9612ed95dbce89eb7b71b93e64"
+    },
+    {
+      "path": "desktop/native/device-helper/Daemon.m",
+      "sha256": "59bd83f0a12a43e0919e7856f2447a3ffb990d33d341770acc4ca03a52e5a1c3"
+    },
+    {
+      "path": "desktop/native/device-helper/Pipe.h",
+      "sha256": "af32a3c43c7bb779f2f5fb119b982ef3240048eb76ef87f0a7a8e385360325c0"
+    },
+    {
+      "path": "desktop/native/device-helper/Protocol.h",
+      "sha256": "213cf8ac21b69d32691dbca2ef95b42946cf7c172677442bec0e8f64c0860caf"
+    },
+    {
+      "path": "desktop/native/device-helper/README.md",
+      "sha256": "b9844889534794d141997ec4b38298eaab352e7cc810f4a0db711a224900bcc4"
+    },
+    {
+      "path": "desktop/native/device-helper/org.remotehub.device-helper.plist",
+      "sha256": "6b8fb83364e2ce4ae4bc4e0039d95bc9ca7f2d63b18e876f3852f085c70aa190"
+    },
+    {
+      "path": "desktop/native/hid_capture.c",
+      "sha256": "1420ea1d19de538060c7b027821726c634bc44a3d144fd52d6dbd37cbf676e18"
+    },
+    {
+      "path": "desktop/native/libusb-LICENSE.txt",
+      "sha256": "5df07007198989c622f5d41de8d703e7bef3d0e79d62e24332ee739a452af62a"
+    },
+    {
+      "path": "desktop/native/loopback.c",
+      "sha256": "45e6d927758ffc72b22d258f640365e769c21c03ab9ff5c245ffaf29ed378db1"
+    },
+    {
+      "path": "desktop/native/loopback.h",
+      "sha256": "fd43d26d74f9d70e3121a327904cb8921ac62b6f7398a032d4d9d2ef35f6d925"
+    },
+    {
+      "path": "desktop/native/macos-audio/Info.plist",
+      "sha256": "3f1cbe5ee33bde1fdb13541d887499a7efe8c23b63c429f5dcf90fba9500576e"
+    },
+    {
+      "path": "desktop/native/macos-audio/LICENSE.txt",
+      "sha256": "b5ca06d599f4d2b24b606068541815817142fecd9f96f786f970f3b11ab15af4"
+    },
+    {
+      "path": "desktop/native/macos-audio/RemoteHubAudio.c",
+      "sha256": "4fb82c7a81cb20f93ea9ee4a72c2621cd72f7175da3487e154fb0f9ab4849996"
+    },
+    {
+      "path": "desktop/native/macos-audio/installer/postinstall",
+      "sha256": "4c8434066fa80e4f781be7eb41c60863798d1c06a0f51f230c21a1f27f56fc8d"
+    },
+    {
+      "path": "desktop/native/macos-entitlements.plist",
+      "sha256": "1d9b25768c98f11fc65e93a18e2def09665b7d467e065c7a6cdd8d095d290d15"
+    },
+    {
+      "path": "desktop/native/tests/audio_plugin_probe.c",
+      "sha256": "9b8740f8f9595debd4d81354203db5efb1c71aee60d132722e5e18eb284df11d"
+    },
+    {
+      "path": "desktop/native/tests/cert_pin_test.m",
+      "sha256": "fdb7eb49710cba9d68867bdb3c68b979a03377a273e58441acc1b887895ae9c3"
+    },
+    {
+      "path": "desktop/native/tests/client_heartbeat_test.m",
+      "sha256": "131a4aa93d00b293081c5f594edc946801f93aff5c696f3d5884bb8510061275"
+    },
+    {
+      "path": "desktop/native/tests/collector_pipe_test.m",
+      "sha256": "1f6dd1ee479915280e9022b31a7c910d540e3cb3fb8a7b627eb5e77e37e3ad34"
+    },
+    {
+      "path": "desktop/native/tests/collector_test.c",
+      "sha256": "817bb0b443eccb30a190b421939cca5363d62144cc8f4ce43622d30940732bba"
+    },
+    {
+      "path": "desktop/native/tests/loopback_test.c",
+      "sha256": "f9a635cd31699a7c102aa06303976b9739d8819d1b1b04eaef5bc598a79821ba"
+    },
+    {
+      "path": "desktop/native/windows-usb/RemoteHubVoice.inf",
+      "sha256": "f383ad507cfd93e1058af61dc4aa9eda51f3c36fcb901c3febf8c03b89daded8"
+    },
+    {
+      "path": "desktop/pyproject.toml",
+      "sha256": "f33d22654922b1164d8d4ce8a33c4d1cebf2c87b0a8c9231406511db2e8606a5"
+    },
+    {
+      "path": "desktop/remotehub/__init__.py",
+      "sha256": "d6577aee9d6e79deb67860bb0c92133f0f49379b793da7af70e356cca020aa15"
+    },
+    {
+      "path": "desktop/remotehub/__main__.py",
+      "sha256": "36b5a27d5d539a7c38f378c1e12a10d3f14f453cb2d1fbc31668bc85d5319d9c"
+    },
+    {
+      "path": "desktop/remotehub/actions.py",
+      "sha256": "e65caa818d055a18658879391c367b6e245ed25bcddd1cf71f01e8e0095ec47b"
+    },
+    {
+      "path": "desktop/remotehub/app.py",
+      "sha256": "13aaae15e89387c37ec94049fba59eab66eef871723afdff577e8d5224310ee7"
+    },
+    {
+      "path": "desktop/remotehub/app_switcher.py",
+      "sha256": "b03ceda2c996192a5b505fa1f5aebeb73e7f80c216963c6947ecb44cbbcb23bc"
+    },
+    {
+      "path": "desktop/remotehub/assets/ICONS.md",
+      "sha256": "fbc07dbce47836e5e402de5303734b253324d447d289b270d53d46af6a7657f3"
+    },
+    {
+      "path": "desktop/remotehub/assets/app-icon.png",
+      "sha256": "d853834913daf84bba3a92f920473de9157150663bbbb89ccfac0561cc5db3ba"
+    },
+    {
+      "path": "desktop/remotehub/assets/app-icon.svg",
+      "sha256": "97ce60887d769133dd10c6dcc0b04426a676dec02be9f00b3b211de76d6bac03"
+    },
+    {
+      "path": "desktop/remotehub/assets/check.svg",
+      "sha256": "f6b0d21ec4630cedec222bfaeb3059d2ac103194c4061228576ff08a3f861f29"
+    },
+    {
+      "path": "desktop/remotehub/assets/chevron-down.svg",
+      "sha256": "d699af294a0d5f9daf996c219c9747f8362e1312bda1c78a820ba8eff28a3594"
+    },
+    {
+      "path": "desktop/remotehub/assets/chevron-up.svg",
+      "sha256": "e5dba050fb5d2a5fe7f63d1334538d6e72b49a568e37a0ba557e74b3151038f5"
+    },
+    {
+      "path": "desktop/remotehub/assets/remote-tv.png",
+      "sha256": "a06d8ede5cfde683d6fee6140b6517cbcf862b8d6e1422227c9160f0a2513095"
+    },
+    {
+      "path": "desktop/remotehub/assets/tray-icon.png",
+      "sha256": "120fd824080e191281324c0e583495fd1aa1561570d4d1540a8658bca1df4d98"
+    },
+    {
+      "path": "desktop/remotehub/assets/tv-keymap.json",
+      "sha256": "34f3e329353486979bd9bc3e7fafae2e218e5e4514f909d4f884b83046307c0f"
+    },
+    {
+      "path": "desktop/remotehub/audio.py",
+      "sha256": "5ae2d352bc013aa204555b73bd215b44eb643b1ee90eb985633e1fc6717f4688"
+    },
+    {
+      "path": "desktop/remotehub/autostart.py",
+      "sha256": "46a0bf7a7a73e7234639e310aaa94d4cf05608759273c7e962211c1c851118ce"
+    },
+    {
+      "path": "desktop/remotehub/branding.json",
+      "sha256": "8a87c8129f916ae32c099dc58836934763855d21d729377a9517fd8ffcc8b4f0"
+    },
+    {
+      "path": "desktop/remotehub/branding.py",
+      "sha256": "8b3167517944a60e98f0f240ad1327c2fdb23a9348264d06eff7244b6dbeb6af"
+    },
+    {
+      "path": "desktop/remotehub/canvas.py",
+      "sha256": "cf7869c04e2343082e30298fe4121e7e60f0fe71b56d263c954fa70ae2fd0567"
+    },
+    {
+      "path": "desktop/remotehub/codec/COPYING.LGPLv2.1",
+      "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+    },
+    {
+      "path": "desktop/remotehub/codec/NOTICE.md",
+      "sha256": "17b08a0218c3da497bdf5f7920d893e206de7e0728e3dc9647202e82035cce55"
+    },
+    {
+      "path": "desktop/remotehub/codec/__init__.py",
+      "sha256": "60c66646b266782bba7ade38f717003ca19abccb7e136df085c46f4675b6eae3"
+    },
+    {
+      "path": "desktop/remotehub/codec/g7221.py",
+      "sha256": "c86239ad2646fa74aa9bb47185769abfe8b4df9f5d4ed38b7779910d45d1d93f"
+    },
+    {
+      "path": "desktop/remotehub/codec/tables.py",
+      "sha256": "3d2d9d8151549d369d8fb40bb74dd989bde0148240bfc1f4b1898ce7483c8d13"
+    },
+    {
+      "path": "desktop/remotehub/common_actions.py",
+      "sha256": "ef72cc179f5d0894ef1f881625f44c6b1e0a3d29adaa8338bb5cf2f04e4c2e06"
+    },
+    {
+      "path": "desktop/remotehub/controller.py",
+      "sha256": "f7d767aa281467ca1bac322ccfe859bc0df09aef00faf4740871263c0e99f4fd"
+    },
+    {
+      "path": "desktop/remotehub/devices.py",
+      "sha256": "ec434214ce62bfd31338806375d17b56d45b4d0f4eb00f1ee9577ce63ed10c22"
+    },
+    {
+      "path": "desktop/remotehub/diagnose.py",
+      "sha256": "7bbc3b1377112a5c17ece34c82af41a7e1602025bb31d2ae1905e2e504f3ce28"
+    },
+    {
+      "path": "desktop/remotehub/diagnostics.py",
+      "sha256": "867436046e7eb86dd2ed9ecbe9f439df235a3586b653670824785fdb93da7497"
+    },
+    {
+      "path": "desktop/remotehub/gestures.py",
+      "sha256": "f53331464e4ec77ba2fc668a379694ef0d90c1501b17b6e76fff25d85bdcd037"
+    },
+    {
+      "path": "desktop/remotehub/hid_reports.py",
+      "sha256": "425e94dfc7a9b3954a00f419b08aadf56b96e35c3e238631ebd7ad2b7939fb6c"
+    },
+    {
+      "path": "desktop/remotehub/holds.py",
+      "sha256": "0bfe13d5906fbb5f50c89cc628e29fde99304acf4cce09ef51940c8b8bb5368e"
+    },
+    {
+      "path": "desktop/remotehub/icons.py",
+      "sha256": "10b2c28194000ca0992c95305252dd5aa39d32333436af1f023c3490f24ad44d"
+    },
+    {
+      "path": "desktop/remotehub/input_codes.py",
+      "sha256": "0f4799ad4d27a6d117f3c32054b37e7e056d0cd7f91725bc577b51318924976a"
+    },
+    {
+      "path": "desktop/remotehub/installers.py",
+      "sha256": "e827ae420fa39452cffdeaf095595858f059a0555280e59391e45c355ac9d8eb"
+    },
+    {
+      "path": "desktop/remotehub/inventory.py",
+      "sha256": "8bc5208f301318746109e50e766ceb9cb54c3344cf640fa41e6f9489315c0b73"
+    },
+    {
+      "path": "desktop/remotehub/key_survey.py",
+      "sha256": "d51a9887b24790d0b34c63d58812e2a1d977075a92c948eb9576c1f8ffe2d20d"
+    },
+    {
+      "path": "desktop/remotehub/launch.py",
+      "sha256": "699e3aac9716562495e18e1889abbf9864fb167dc449a69a97eae4df9933b5fa"
+    },
+    {
+      "path": "desktop/remotehub/mac_device_helper.py",
+      "sha256": "b58271048b9ee60baea1719088517d83a1cd192e9f18af835601fb0a0bf162ff"
+    },
+    {
+      "path": "desktop/remotehub/mac_input.py",
+      "sha256": "a9e895a7bde47fcbdbcb96cd5b69a122982961f080dcc2047c34db429dcb2df5"
+    },
+    {
+      "path": "desktop/remotehub/model.py",
+      "sha256": "df7d7ddcfb5435a521290009a1501b5b023a0f1d548aa55843f668ef846c9a84"
+    },
+    {
+      "path": "desktop/remotehub/models/usb-0416-0602.json",
+      "sha256": "c69b55236eb8aa9fa736599ae6c5d351b9baa229706a9456480a39c84ba9a80a"
+    },
+    {
+      "path": "desktop/remotehub/models.py",
+      "sha256": "66cfefffe58551aefb3e61e13b687756a08f92006a6b370f3af5d6182fa786fb"
+    },
+    {
+      "path": "desktop/remotehub/permissions.py",
+      "sha256": "9e0d104369b6c1e7e73e28325ef7680fc553bce0a04887d770ee9c6d79c92ec9"
+    },
+    {
+      "path": "desktop/remotehub/photo_template.py",
+      "sha256": "77b95c4bee1eb9619fee460e5a72b8fc7d5cfd8b32f11261c8f1513cf4b7d305"
+    },
+    {
+      "path": "desktop/remotehub/presentation.py",
+      "sha256": "e40ea79c1973d74b65a790098c003ac35155da655fd28f103c9f8dd0fbfedd96"
+    },
+    {
+      "path": "desktop/remotehub/session.py",
+      "sha256": "593638c7a57b027858ac974cb0614200a0302c207743a26eb8dd77b51a89b6bc"
+    },
+    {
+      "path": "desktop/remotehub/store.py",
+      "sha256": "d94e119a4e69933217c41641ec596ac562a75d376398caf4a41f75a9dc94f9cd"
+    },
+    {
+      "path": "desktop/remotehub/system_hotkeys.py",
+      "sha256": "0dc82b778c27d29248f610afbbdcc9dfdb38a015c8a9e4e1f9ed7417d7855f4a"
+    },
+    {
+      "path": "desktop/remotehub/theme.py",
+      "sha256": "4bb21e111e858ff718b273b80a5c4f277e9d02a491756e3c9b2f11ab3532ffe0"
+    },
+    {
+      "path": "desktop/remotehub/ui/__init__.py",
+      "sha256": "7e8ffbf9a5174add225c79ae73ee3be7866a947ed644f8a1b71becc7057e9526"
+    },
+    {
+      "path": "desktop/remotehub/ui/general.py",
+      "sha256": "cdbb7292fe6117bb1cde69a636cc05f442092a808f63a384fae17ec940e49914"
+    },
+    {
+      "path": "desktop/remotehub/ui/inspector.py",
+      "sha256": "a19f0538826fa7a72b8040adb37378d3c51c7aacccb18f54b776b504fc15f8d5"
+    },
+    {
+      "path": "desktop/remotehub/ui/mapping.py",
+      "sha256": "ab81c9df53c238a843a2118ece1a0167d6bfad78f399259c580d03afa1342d2a"
+    },
+    {
+      "path": "desktop/remotehub/ui/onboarding.py",
+      "sha256": "561faeb0a97998cdc6c5369d644720326be618d36cf9ca815e35edc7b8326606"
+    },
+    {
+      "path": "desktop/remotehub/ui/permission_app.py",
+      "sha256": "154933ecf81bb37488ee7c1290f26ead6355e597c4c0286ca4721bd209422a65"
+    },
+    {
+      "path": "desktop/remotehub/ui/permission_overlay.py",
+      "sha256": "ac61330ca87251bed2423754899877da9ce54bf015a06c85a1aa4772f42d0f1c"
+    },
+    {
+      "path": "desktop/remotehub/ui/sidebar.py",
+      "sha256": "3e26011d9c9e00cb4be685cb4fd81b28ab28905639bc8225236eda8f59c42b80"
+    },
+    {
+      "path": "desktop/remotehub/ui/voice.py",
+      "sha256": "903038740caeb275a9e89019ce03710393ef5f0978b4d0ea0de2ebfef6cfef0e"
+    },
+    {
+      "path": "desktop/remotehub/ui/widgets.py",
+      "sha256": "ae4badbfe7e85543aa14e45b2d5cb35990965d9db6720840e22efcd797645a21"
+    },
+    {
+      "path": "desktop/remotehub/ui/window.py",
+      "sha256": "5a82ea7ec717bd100e2a7c1ab4a6c03893b7da4941f7476c732d85299c7ec21f"
+    },
+    {
+      "path": "desktop/remotehub/update-public.pem",
+      "sha256": "2e6d0c3261e86bb05aa2119f216c5e1abe6bf902a142c9bb8e9a7ca889b506bd"
+    },
+    {
+      "path": "desktop/remotehub/updates.py",
+      "sha256": "b9abc3802646db02ceb3b5dca2526b4e02b882b79d9bac7ebf9b3ea0294aadc8"
+    },
+    {
+      "path": "desktop/remotehub/usb_bridge.py",
+      "sha256": "2e8d4a873a713eca9aa9667e0e5a3758848f0cd42e426fe7df253397de659f2a"
+    },
+    {
+      "path": "desktop/remotehub/usb_worker.py",
+      "sha256": "94900c082f64c0542deca0a4fb526da802ba3695fba6648bfc47b7a2be39c304"
+    },
+    {
+      "path": "desktop/remotehub/virtual_mic.py",
+      "sha256": "76e7645522410878cd9fc516fae68989424eb2f04c23ecf7ca7bfdd19ff03069"
+    },
+    {
+      "path": "desktop/remotehub/win_audio_route.py",
+      "sha256": "a98152ff472b3f0160a9d5dc62ce4cb9a0ed6f36ed1c5eed176d753f54c35593"
+    },
+    {
+      "path": "desktop/remotehub/windows.py",
+      "sha256": "96d58af201143e5281f445a7a1647bd609aabefe956d58c0be6b81b03b03b57f"
+    },
+    {
+      "path": "desktop/remotehub/windows_collector.py",
+      "sha256": "d3db293b1e9ac9dbedf376b3129f2d6d1a39d4b3e72203fb7271ec1b4269fc0a"
+    },
+    {
+      "path": "desktop/remotehub/windows_driver.py",
+      "sha256": "1ee35e598222a6e81b91a0c7ba36f9c054da279545960a5cdc0bbc013d934641"
+    },
+    {
+      "path": "desktop/remotehub/windows_hid.py",
+      "sha256": "e15b767fed590aa40a3148d8e82f1d102ae331399b52456afd56f33a116084d5"
+    },
+    {
+      "path": "desktop/remotehub/windows_input.py",
+      "sha256": "81a851cd2799a6432439bc0104bd85ff7fefe6b1119b5dd2d7558d3c1235d97a"
+    },
+    {
+      "path": "desktop/requirements-macos-arm64.lock",
+      "sha256": "ad5b14d421692349174d744e766dfb9b8ebca3c60df96b9db8c315a2709ecfdf"
+    },
+    {
+      "path": "desktop/requirements-macos-x86_64.lock",
+      "sha256": "ad5b14d421692349174d744e766dfb9b8ebca3c60df96b9db8c315a2709ecfdf"
+    },
+    {
+      "path": "desktop/requirements-release.txt",
+      "sha256": "5a52fa8e4f1cd20f1e43f34ac10651fb7113932bc2cf98b6570fc21a786110c2"
+    },
+    {
+      "path": "desktop/requirements-windows-x64.lock",
+      "sha256": "aa8d174f67b290080d763fdf6c4f361f266db272bafa6e31486de737e5b4afb5"
+    },
+    {
+      "path": "desktop/scripts/build.py",
+      "sha256": "7719646a661ac806bbe6e98e1443286d067323e0c4f104822001ccd19a907abf"
+    },
+    {
+      "path": "desktop/scripts/build_device_helper.py",
+      "sha256": "07df236f93c83a94dfb2e6de6772819f084e73f8aef2fcc7d0ff8aed7fd42f35"
+    },
+    {
+      "path": "desktop/scripts/build_dmg.py",
+      "sha256": "e195868704a3e1c186db73b2edf18bd7cd2c4b8a641dc7a236c38fd5e4bdcf48"
+    },
+    {
+      "path": "desktop/scripts/build_dmg_background.py",
+      "sha256": "58ccf9f9ec03321e8d195e30012e3453fcf1ecb24c336f5d063155201e68e11e"
+    },
+    {
+      "path": "desktop/scripts/build_icons.py",
+      "sha256": "77e0ec5b37785c8500a1039deb81651b67eeba47d04b9ff23053add96a0f9f45"
+    },
+    {
+      "path": "desktop/scripts/build_macos_audio.sh",
+      "sha256": "81cee78524f6cd4afc0ee284157827626661d26a199135fa0075532746ed1e3c"
+    },
+    {
+      "path": "desktop/scripts/build_release_candidate.command",
+      "sha256": "d6fb4d9ff99601adc3e88cbf2c70b8eae7a21f0a3f4fb63bdda1eef85919a2de"
+    },
+    {
+      "path": "desktop/scripts/build_remote_illustration.py",
+      "sha256": "2d3f9109060a9a5472978ab596be14e25494f1226e1401a7c2b6f618d7128ba6"
+    },
+    {
+      "path": "desktop/scripts/build_windows.ps1",
+      "sha256": "f8dc1e48c34fe7edd17a40935b28cd5b18be31a73024c06af04e3f3bd12e7269"
+    },
+    {
+      "path": "desktop/scripts/collect_licenses.py",
+      "sha256": "b860501035089795a9ac272b598f56390ae1548a408ed148200cf0ff783cda8b"
+    },
+    {
+      "path": "desktop/scripts/collect_windows_logs.ps1",
+      "sha256": "27776e922ba0b64d728b0bb9be7a4e4d0ad9eb1ee9769d54330e2e294f817856"
+    },
+    {
+      "path": "desktop/scripts/export_source.py",
+      "sha256": "c9870d02fe0023e7ba1035f4d60e35c1e92c1952e51124df12c7b5ed737c4fc8"
+    },
+    {
+      "path": "desktop/scripts/hooks/hook-PySide6.QtGui.py",
+      "sha256": "ddfa756cb09b91d3bd80300960a6f7c97db4b3a202b953db5fb41ba019737f20"
+    },
+    {
+      "path": "desktop/scripts/inventory_macos_runtime.py",
+      "sha256": "c6171fc2d3facf2888f96b80299a3fc8cc93643e5caf294d2072444b7c215b81"
+    },
+    {
+      "path": "desktop/scripts/make_update_manifest.py",
+      "sha256": "c015b5c7c117d8ca0d7073de7c1127d78e30129e1970bf8bb27f13ee5b9ebcf6"
+    },
+    {
+      "path": "desktop/scripts/package_audio_component.py",
+      "sha256": "f8b1dd72bba8de0c5aac21b8b71c7bd5be634cfa714562033b8fcc954a63baa5"
+    },
+    {
+      "path": "desktop/scripts/package_macos.py",
+      "sha256": "8f03807d990bb9b29e7e906be539562dfae0b2041f23b8b5a3a5f32c179d8e9d"
+    },
+    {
+      "path": "desktop/scripts/package_uninstall.py",
+      "sha256": "c0a67dba4b169c5b02f917acf7f1a386cfcb1070d94ba702274ef9cd17387fee"
+    },
+    {
+      "path": "desktop/scripts/package_windows_zip.py",
+      "sha256": "51e8ee7cc440055ba76f11ff3f6cba42f40992e8e4bda10abb3b3c785278db6d"
+    },
+    {
+      "path": "desktop/scripts/prepare_macos_licenses.py",
+      "sha256": "75f64fa53f55dcae1725a62af3d0c8e51e4ecebf1ef3f29112a9ae972f65ce1d"
+    },
+    {
+      "path": "desktop/scripts/prepare_python_standalone.py",
+      "sha256": "bd3030181cff813b8539ab2357bc6fe6520ae098878a81933889fdb2a4d96a17"
+    },
+    {
+      "path": "desktop/scripts/release_assets.py",
+      "sha256": "2fca748ab1310739167d38df014b6fa35057dcdc22835f8bde45ee03b7d552cb"
+    },
+    {
+      "path": "desktop/scripts/release_macos.py",
+      "sha256": "774d8a7679be28600f6eb476bcb2343d5cc119e3ef7c1c41d864b469594d4d78"
+    },
+    {
+      "path": "desktop/scripts/release_policy.py",
+      "sha256": "0a3425a9d9c85f91d324690e523c22c0b4ffc590358b431138844d81e3eabd92"
+    },
+    {
+      "path": "desktop/scripts/sanitize_sysconfig.py",
+      "sha256": "fc1bcd3174f5a0f4d39499df01d3a11d541ee496e61f20652cc950377ccf4774"
+    },
+    {
+      "path": "desktop/scripts/update_macos.py",
+      "sha256": "516772e97ed1d5cafb2b38cbb0d0b2f1270416b43a6101558f07d9cc8454edc2"
+    },
+    {
+      "path": "desktop/scripts/verify.py",
+      "sha256": "28b408f46ad93c7750ab864c138f2709cb2c85942feb8207240a80adfa44d9f8"
+    },
+    {
+      "path": "desktop/scripts/verify_device_delivery.py",
+      "sha256": "57d002a6c342bb632880a8001a5cd6699d7dcea6fde07ba12322feac636af501"
+    },
+    {
+      "path": "desktop/scripts/verify_release_zip.py",
+      "sha256": "4c47f179844df221b9c3bba538c55727ef179e39b1f3142f072f12143f777c20"
+    },
+    {
+      "path": "desktop/tests/fixtures/g7221-synthetic.json",
+      "sha256": "b6c61438da555263e37108f75b07073391fcc031b6e9be24372e5d6f358f55ef"
+    },
+    {
+      "path": "desktop/tests/fixtures/receiver-descriptors.json",
+      "sha256": "866282fc55219bc852e04cd9b15a2a6ce7cfd54aca04d4033e7794b6e369fc87"
+    },
+    {
+      "path": "desktop/tests/test_advanced_actions.py",
+      "sha256": "061265f9d52362e929b9cb5925bc305a1e00e9f05a79bc9fd00f1f45129e9420"
+    },
+    {
+      "path": "desktop/tests/test_app_update.py",
+      "sha256": "dc8c3ddf5674c2d3bfd15db186925caa6f9fc750cad4f663b174c50b9df35741"
+    },
+    {
+      "path": "desktop/tests/test_application_picker.py",
+      "sha256": "5cd50e2a4041986438820c9d4ce7c2b914345e2e95bdc00b2c0e72b77f5fdcc8"
+    },
+    {
+      "path": "desktop/tests/test_audio_bridge.py",
+      "sha256": "9e8582dd24ac3c768292350f07e127b3ad7123e57d78bb217ea14dfef0ec88a8"
+    },
+    {
+      "path": "desktop/tests/test_audio_installer.py",
+      "sha256": "8211769ea3b03591050c8dbc77fecdca6ced56478c72252099962425b1ecec0e"
+    },
+    {
+      "path": "desktop/tests/test_audit_regressions.py",
+      "sha256": "755e5d2c894382a6e056111175446585e8c98c4c7b0023047581f90dbca7c0e4"
+    },
+    {
+      "path": "desktop/tests/test_automatic_virtual_mic.py",
+      "sha256": "8c15f677b1e6f070e0dae4165eb7f0b10d4ee3090c01e7885f93cfe1b3c3ab45"
+    },
+    {
+      "path": "desktop/tests/test_autostart.py",
+      "sha256": "0cb3ba5c5986301ca3acd5100af2aa97035f912afb947a353b1cc0b7e351bf7a"
+    },
+    {
+      "path": "desktop/tests/test_combo_popup.py",
+      "sha256": "b263f9f662e8ed8373568906f9a3adbbab400a76bfd420c077d1f58ea9c66310"
+    },
+    {
+      "path": "desktop/tests/test_connection_diagnostics.py",
+      "sha256": "67a19690b00a7fb76ed5b95d30acfd7e5dbb8a4889353860374e8889214732ce"
+    },
+    {
+      "path": "desktop/tests/test_connection_guidance.py",
+      "sha256": "b8c7fe685968b961a2e531dd4a25f524a37c0a528bc09ca225f769a0b05b0d0d"
+    },
+    {
+      "path": "desktop/tests/test_controller.py",
+      "sha256": "704fb483c1cdccbd3dff7dc9e67d97ce485ffa8d2bc3529c4592cd735e6f2e4b"
+    },
+    {
+      "path": "desktop/tests/test_core.py",
+      "sha256": "8a65c340a6ff0113d616c0837b7c2dffe9fbf7bd778259fb61b6b16dcbb33d07"
+    },
+    {
+      "path": "desktop/tests/test_dedicated_voice.py",
+      "sha256": "7305838c0e15a8c5699aea5732ca4da045296202fe842e4651d2110abbfd665a"
+    },
+    {
+      "path": "desktop/tests/test_default_input_route.py",
+      "sha256": "aa6967ed83d3a801f2cd45a35ee989dc62ed6775d19a83cfd2d1e47958526886"
+    },
+    {
+      "path": "desktop/tests/test_device_helper_package.py",
+      "sha256": "d5de9a91818ea7a07340445a1eaeb9502d87f19b9006cf1558f7bdfe25b34630"
+    },
+    {
+      "path": "desktop/tests/test_device_models.py",
+      "sha256": "30bd14a5dab7dfd6b0457ff28386d0791bb6e173f34415ce10e2dbd4de8d6f91"
+    },
+    {
+      "path": "desktop/tests/test_diagnose.py",
+      "sha256": "0be3cc0218b49923101f4dfb03cc7f56cc93435c000d8d3eb15c0e3750c5c04b"
+    },
+    {
+      "path": "desktop/tests/test_failure_paths.py",
+      "sha256": "ccb8fd5e8be1fcfb06ab26069e2126027d40c29889cf6273d306053b156fd537"
+    },
+    {
+      "path": "desktop/tests/test_fixed_keys.py",
+      "sha256": "f4d551f3c0665cf1f4a3af13bdcb6d7a73be95ef7f296403e0faf057a59f1678"
+    },
+    {
+      "path": "desktop/tests/test_g7221.py",
+      "sha256": "f92e9dd96fca37f622dd02404274e5a8ffe121588b702a93a2925e73510fb992"
+    },
+    {
+      "path": "desktop/tests/test_input_codes.py",
+      "sha256": "4455b15b35a98e6916530f059887a5d384f29804c1bf17cd77eb648886bf6aec"
+    },
+    {
+      "path": "desktop/tests/test_input_holds.py",
+      "sha256": "1b1c08ccb3c2cdf311374b4234e46b4881c011aec4c4ae01b63090fb61bcb499"
+    },
+    {
+      "path": "desktop/tests/test_input_routing_settings.py",
+      "sha256": "a516a8bb4ba4b4eed4ee3f56f5c45d8854c0c022a14d222cdcad4d5825c0cba5"
+    },
+    {
+      "path": "desktop/tests/test_inventory.py",
+      "sha256": "6e35e346ba93722b07ec2af4eb48bd7e7d68a8ebe162c3ed58dd039208d25d00"
+    },
+    {
+      "path": "desktop/tests/test_key_survey.py",
+      "sha256": "04b38d7edffddfd2a3be4642f4e3f6fad102df4f5ffc4150e8ca1db26240b308"
+    },
+    {
+      "path": "desktop/tests/test_mac_device_helper.py",
+      "sha256": "92ef3a8b69c3fcf50b74f441b100bfa1dbbbb627013b2d06606bfd963cbe6acc"
+    },
+    {
+      "path": "desktop/tests/test_macos_native.py",
+      "sha256": "7971730bfb0802eae15fe70768083cfda5a7b171628d8287870646506b5ed8f7"
+    },
+    {
+      "path": "desktop/tests/test_model_connection.py",
+      "sha256": "62a33b540f528284656bb7b3085c6adf0cd581ddd8a8c18c47f4773c96fca947"
+    },
+    {
+      "path": "desktop/tests/test_onboarding.py",
+      "sha256": "48ee516aa3d0fbfaf96fff6f22c02b1fc2b588178d0cb465d8cd323ad96bf5f2"
+    },
+    {
+      "path": "desktop/tests/test_permission_onboarding.py",
+      "sha256": "46b3719d69a81894ae4acb70c3d81fc21a7689112977aa7875f784d9720543b2"
+    },
+    {
+      "path": "desktop/tests/test_permission_overlay.py",
+      "sha256": "40eca1a20d4191a08e502799f9edb1c983dc420fdcc174ebc6972e1195d5b615"
+    },
+    {
+      "path": "desktop/tests/test_photo_mapping.py",
+      "sha256": "a9779510638fa5508f317c3c37c773614fc4dc9f59fcd61885e44459feb75414"
+    },
+    {
+      "path": "desktop/tests/test_release_audit_fixes.py",
+      "sha256": "803c7863110cc53936753ce19883b102ca2922b09302fa24030b4cbbf362a192"
+    },
+    {
+      "path": "desktop/tests/test_release_policy.py",
+      "sha256": "c7a0f164dad24de7a85b054c8bdf6fa34e7569ec65b578adbeedfd3c052ed8a0"
+    },
+    {
+      "path": "desktop/tests/test_settings_layout.py",
+      "sha256": "2ced89253340071d26879b35a4caec8881e0cb30d2c61256dec0039424a91acc"
+    },
+    {
+      "path": "desktop/tests/test_settings_wheel.py",
+      "sha256": "91e25bae1c00614589985c34cada634cb23681f6417f58c45192553c08ae50b8"
+    },
+    {
+      "path": "desktop/tests/test_settings_workflow.py",
+      "sha256": "037ba7b7e646994faaf64256e6911ec0be3efc202c2bff0885028379f0a3df94"
+    },
+    {
+      "path": "desktop/tests/test_system_hotkeys.py",
+      "sha256": "e4304f6097fb05035044c9674ed140c4c126d17cab1e4187665cd523b97fb139"
+    },
+    {
+      "path": "desktop/tests/test_text_action.py",
+      "sha256": "b9a3fc0bab413b0b57e0449cde80480640998693c2251fa1534f5d0def5baa54"
+    },
+    {
+      "path": "desktop/tests/test_ui.py",
+      "sha256": "f0beed5bd5fa2210fc20146bf683c265aa4aa489861c785897284b26b0868392"
+    },
+    {
+      "path": "desktop/tests/test_unified_collector.py",
+      "sha256": "9e8b352b7e75cfe12e6b79e2f26d70627869ab3e4e47ce73b97836334c9f3aa5"
+    },
+    {
+      "path": "desktop/tests/test_uninstall_action.py",
+      "sha256": "88e13405fa212317a655d38d4cdc30d94a4d833950e103f3c02ca51817c79dab"
+    },
+    {
+      "path": "desktop/tests/test_uninstall_package.py",
+      "sha256": "8d252a3cd5513b6501ed66cfd717c05eecb030a86a617800b8e920e9f621786f"
+    },
+    {
+      "path": "desktop/tests/test_updates.py",
+      "sha256": "f5b949f50c595a9db5dfb0faa29e5af1fe3b53dc41e57abe7d1762afc3650efd"
+    },
+    {
+      "path": "desktop/tests/test_usb_worker.py",
+      "sha256": "b880ff5d0e8aae0a1c01f5d6333f7a1a9bd1eeb5e7cb4f0062c7a624f4828080"
+    },
+    {
+      "path": "desktop/tests/test_voice_disabled.py",
+      "sha256": "09fbae754c256685d1a6ccbb37373413eae6f58d761607e9fb1bd8e8f8e4fa6d"
+    },
+    {
+      "path": "desktop/tests/test_voice_key_recorder.py",
+      "sha256": "d35e21239794da1ddae7997097ed7f0b2a055eee3e213e584bfee146e55a3bd5"
+    },
+    {
+      "path": "desktop/tests/test_win_window_state.py",
+      "sha256": "744aa35575432d41a028a7bd51a6dc779c0fe163531e790f50c2a542aac01449"
+    },
+    {
+      "path": "desktop/tests/test_windows_actions.py",
+      "sha256": "a25196526798df981a90220aa59ea2f20fb123471e08a6fd5a24dec8199e2bc7"
+    },
+    {
+      "path": "desktop/tests/test_windows_input_route.py",
+      "sha256": "8ba8d3f0585aff0dfa71839ad1955771b701bbcb5fa05f5b26933bba52d4b000"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2791e760f8ad0761cf43212865bb3d959daea9312402de0ab236e379682e4454"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "archives": [
+    {
+      "name": "pynput",
+      "version": "1.8.2",
+      "url": "https://files.pythonhosted.org/packages/86/c6/e2d415610cfbc78308bee44218a46124aaa3301b1df08814df819b2254a1/pynput-1.8.2.tar.gz",
+      "filename": "pynput-1.8.2.tar.gz",
+      "sha256": "f493c87157cd3861b4468f7f896857051762f44ed26f1b641e7cc5840a457087",
+      "size": 82818
+    },
+    {
+      "name": "pyobjc-core",
+      "version": "13.0",
+      "url": "https://files.pythonhosted.org/packages/83/58/7bab095330b8893e1ac58f3cf9710462c3242b600f8fa5db0d5dda795775/pyobjc_core-13.0.tar.gz",
+      "filename": "pyobjc_core-13.0.tar.gz",
+      "sha256": "ffe154462d14aa4852f424e9116f17b5f8d44f78fc0f6c4727e721a5fa7177da",
+      "size": 1083172
+    },
+    {
+      "name": "pyobjc-framework-ApplicationServices",
+      "version": "13.0",
+      "url": "https://files.pythonhosted.org/packages/69/02/fdcf6554abfb830f335e68a43a5ac102cdc73c720a1e039551d4a61f692b/pyobjc_framework_applicationservices-13.0.tar.gz",
+      "filename": "pyobjc_framework_applicationservices-13.0.tar.gz",
+      "sha256": "d869115dd13300fa9ce926cdc23e6cceec1279bc02cc75d1be24562c89cd9ecc",
+      "size": 108163
+    },
+    {
+      "name": "python",
+      "version": "3.12.13",
+      "url": "https://www.python.org/ftp/python/3.12.13/Python-3.12.13.tar.xz",
+      "filename": "Python-3.12.13.tar.xz",
+      "sha256": "c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684",
+      "size": 20801708
+    },
+    {
+      "name": "libusb-helper",
+      "version": "1.0.29",
+      "url": "https://github.com/libusb/libusb/releases/download/v1.0.29/libusb-1.0.29.tar.bz2",
+      "filename": "libusb-1.0.29.tar.bz2",
+      "sha256": "5977fc950f8d1395ccea9bd48c06b3f808fd3c2c961b44b0c2e6e29fc3a70a85",
+      "size": 645381
+    },
+    {
+      "name": "libusb",
+      "version": "1.0.30",
+      "url": "https://github.com/libusb/libusb/releases/download/v1.0.30/libusb-1.0.30.tar.bz2",
+      "filename": "libusb-1.0.30.tar.bz2",
+      "sha256": "fea36f34f9156400209595e300840767ab1a385ede1dc7ee893015aea9c6dbaf",
+      "size": 656112
+    },
+    {
+      "name": "qt",
+      "version": "6.12.0",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/single/qt-everywhere-src-6.12.0.tar.xz",
+      "filename": "qt-everywhere-src-6.12.0.tar.xz",
+      "sha256": "98ff4f44bac6ec3e1e62ee2a4316ae0e3d15badb015d753cc0268a20db52f165",
+      "size": 443394020
+    },
+    {
+      "name": "pyside6",
+      "version": "6.12.0",
+      "url": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.12.0-src/pyside-setup-everywhere-src-6.12.0.tar.xz",
+      "filename": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+      "sha256": "099c1a597cf33c1b000e11cf68a0b82d216fb802bf81726efc720394f10c7751",
+      "size": 18211772
+    },
+    {
+      "name": "ffmpeg",
+      "version": "9.0.1",
+      "url": "https://ffmpeg.org/releases/ffmpeg-9.0.1.tar.xz",
+      "filename": "ffmpeg-9.0.1.tar.xz",
+      "sha256": "cf38e0e28c7e5605942c4a77755349b0145804a397af37eb1fb4c77cb237f635",
+      "size": 12036420
+    }
+  ]
+}

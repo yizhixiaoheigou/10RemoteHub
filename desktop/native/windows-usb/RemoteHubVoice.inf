@@ -1,0 +1,34 @@
+; Review/build input only. No automatic installation or driver replacement.
+; Matches only interface 03 of the supported receiver, not its keyboard interfaces.
+; A valid catalog/signing workflow is required before normal distribution.
+[Version]
+Signature="$Windows NT$"
+Class=USBDevice
+ClassGuid={88BAE032-5A81-49F0-BC3D-A4FF138216D6}
+Provider=%ProviderName%
+DriverVer=11/04/2026,0.1.0.0
+CatalogFile=RemoteHubVoice.cat
+PnpLockdown=1
+
+[Manufacturer]
+%ProviderName%=Models,NTamd64,NTarm64
+
+[Models.NTamd64]
+%DeviceName%=Voice,USB\VID_0416&PID_0602&MI_03
+[Models.NTarm64]
+%DeviceName%=Voice,USB\VID_0416&PID_0602&MI_03
+
+[Voice.NT]
+Include=winusb.inf
+Needs=WINUSB.NT
+[Voice.NT.Services]
+Include=winusb.inf
+Needs=WINUSB.NT.Services
+[Voice.NT.HW]
+AddReg=InterfaceGuid
+[InterfaceGuid]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{7CE8EA91-4F88-4321-B109-C338DB452923}"
+
+[Strings]
+ProviderName="10RemoteHub"
+DeviceName="10RemoteHub USB Voice Interface"

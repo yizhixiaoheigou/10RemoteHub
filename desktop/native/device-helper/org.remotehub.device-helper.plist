@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>Label</key><string>org.remotehub.device-helper</string>
+<key>ProgramArguments</key><array><string>/Library/PrivilegedHelperTools/10RemoteHub/device-helper</string></array>
+<key>AssociatedBundleIdentifiers</key><array><string>org.remotehub.desktop</string></array>
+<key>MachServices</key><dict><key>org.remotehub.device-helper</key><true/></dict>
+<key>UserName</key><string>root</string>
+<key>GroupName</key><string>wheel</string>
+<key>ProcessType</key><string>Interactive</string>
+<key>ExitTimeOut</key><integer>6</integer>
+<key>ThrottleInterval</key><integer>5</integer>
+</dict></plist>

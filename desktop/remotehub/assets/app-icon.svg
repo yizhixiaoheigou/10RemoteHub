@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>10RemoteHub</title>
+  <desc>A diagonal black remote with a blue tip on a white rounded square.</desc>
+  <rect x="64" y="64" width="896" height="896" rx="188" fill="#FFFFFF"/>
+  <g transform="rotate(42 512 512)">
+    <rect x="369" y="212" width="286" height="600" rx="143" fill="#111116"/>
+    <path d="M512 355V212a143 143 0 0 1 143 143Z" fill="#145BFF"/>
+    <circle cx="512" cy="355" r="86" fill="#FFFFFF"/>
+    <circle cx="458" cy="686" r="33" fill="#FFFFFF"/>
+    <circle cx="566" cy="686" r="33" fill="#FFFFFF"/>
+  </g>
+</svg>

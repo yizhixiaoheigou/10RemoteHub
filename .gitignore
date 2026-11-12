@@ -1,0 +1,12 @@
+__pycache__/
+artifacts/
+desktop/.venv*/
+desktop/build/
+desktop/dist/
+desktop/*.egg-info/
+desktop/native/hid_capture
+.pytest_cache/
+.DS_Store
+盒子USB抓包原始数据.txt
+Mac上的厂商报告原始数据.txt
+work/logs/

@@ -1,0 +1,219 @@
+{
+  "schema": 1,
+  "vendor": 1046,
+  "product": 1538,
+  "evidence_platform": "darwin",
+  "sources": [
+    {
+      "session": "capture-1",
+      "events_sha256": "86ab25d04936c0bde5a38efcbdce50033717bb72f7905829f00fc55ad55a3a86"
+    },
+    {
+      "session": "capture-2",
+      "events_sha256": "cb65fea2874a111ae8ac7e9d377737e4d185682098b3d6e552af7fae061ce03b"
+    }
+  ],
+  "excluded": [
+    "tv-power",
+    "tv-tv"
+  ],
+  "voice_request_prefix": "018203",
+  "keys": {
+    "tv-settings": {
+      "trigger": "hid:12:235",
+      "primary_page": 12,
+      "primary_usage": 1,
+      "press_hex": "eb00",
+      "release_hex": "0000"
+    },
+    "tv-mute": {
+      "trigger": "hid:12:226",
+      "primary_page": 12,
+      "primary_usage": 1,
+      "press_hex": "e200",
+      "release_hex": "0000"
+    },
+    "tv-up": {
+      "trigger": "hid:7:82",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000520000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-left": {
+      "trigger": "hid:7:80",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000500000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-ok": {
+      "trigger": "hid:12:65",
+      "primary_page": 12,
+      "primary_usage": 1,
+      "press_hex": "4100",
+      "release_hex": "0000"
+    },
+    "tv-right": {
+      "trigger": "hid:7:79",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "00004f0000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-down": {
+      "trigger": "hid:7:81",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000510000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-menu": {
+      "trigger": "hid:7:101",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000650000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-back": {
+      "trigger": "hid:12:548",
+      "primary_page": 12,
+      "primary_usage": 1,
+      "press_hex": "2402",
+      "release_hex": "0000"
+    },
+    "tv-voice": {
+      "trigger": "hid:7:62",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "00003e0000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-channel-up": {
+      "trigger": "hid:7:75",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "00004b0000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-home": {
+      "trigger": "hid:12:547",
+      "primary_page": 12,
+      "primary_usage": 1,
+      "press_hex": "2302",
+      "release_hex": "0000"
+    },
+    "tv-m": {
+      "trigger": "hid:12:240",
+      "primary_page": 12,
+      "primary_usage": 1,
+      "press_hex": "f000",
+      "release_hex": "0000"
+    },
+    "tv-volume-down": {
+      "trigger": "hid:12:234",
+      "primary_page": 12,
+      "primary_usage": 1,
+      "press_hex": "ea00",
+      "release_hex": "0000"
+    },
+    "tv-channel-down": {
+      "trigger": "hid:7:78",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "00004e0000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-1": {
+      "trigger": "hid:7:30",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "00001e0000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-2": {
+      "trigger": "hid:7:31",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "00001f0000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-3": {
+      "trigger": "hid:7:32",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000200000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-4": {
+      "trigger": "hid:7:33",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000210000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-5": {
+      "trigger": "hid:7:34",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000220000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-6": {
+      "trigger": "hid:7:35",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000230000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-7": {
+      "trigger": "hid:7:36",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000240000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-8": {
+      "trigger": "hid:7:37",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000250000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-9": {
+      "trigger": "hid:7:38",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000260000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-#": {
+      "trigger": "hid:7:204",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000cc0000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-0": {
+      "trigger": "hid:7:39",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000270000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-number-*": {
+      "trigger": "hid:7:85",
+      "primary_page": 1,
+      "primary_usage": 6,
+      "press_hex": "0000550000000000",
+      "release_hex": "0000000000000000"
+    },
+    "tv-volume-up": {
+      "trigger": "hid:12:233",
+      "primary_page": 12,
+      "primary_usage": 1,
+      "press_hex": "e900",
+      "release_hex": "0000"
+    }
+  }
+}

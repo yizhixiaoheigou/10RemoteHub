@@ -1,0 +1,28 @@
+{
+  "python_version": "3.12.13",
+  "target_triple": "aarch64-apple-darwin",
+  "build": "20260325",
+  "archives": [
+    {
+      "filename": "cpython-3.12.13+20260325-aarch64-apple-darwin-install_only_stripped.tar.gz",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260325/cpython-3.12.13%2B20260325-aarch64-apple-darwin-install_only_stripped.tar.gz",
+      "sha256": "c33a34853ae48d54fbac15cbb84ad67ccd8a639ce2cef866ecf474ebd02f1286",
+      "size": 17756368,
+      "role": "runtime-binary"
+    },
+    {
+      "filename": "cpython-3.12.13+20260325-aarch64-apple-darwin-pgo+lto-full.tar.zst",
+      "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260325/cpython-3.12.13%2B20260325-aarch64-apple-darwin-pgo%2Blto-full.tar.zst",
+      "sha256": "a472b083d9c68289836bb6617b921de205a10387e07bb302c1dc8a46c4db758e",
+      "size": 52515303,
+      "role": "distribution-metadata"
+    },
+    {
+      "filename": "python-build-standalone-20260325.tar.gz",
+      "url": "https://github.com/astral-sh/python-build-standalone/archive/refs/tags/20260325.tar.gz",
+      "sha256": "c6b5d75ad4147c6aca77b70891573d0037c3795d561060e935299800263cc9ca",
+      "size": 438029,
+      "role": "build-recipes"
+    }
+  ]
+}

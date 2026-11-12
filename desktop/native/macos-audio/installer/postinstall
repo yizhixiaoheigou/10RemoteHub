@@ -1,0 +1,33 @@
+#!/bin/sh
+set -eu
+# Installer already has administrator approval. Fixed commands and UID only.
+# Never reload the running system when installing onto an offline volume.
+target_volume="${3:-/}"
+if [ "$target_volume" != / ]; then
+    echo 'Audio service will load the component when the target system starts.'
+    exit 0
+fi
+/usr/bin/codesign --verify --deep --strict /Library/Audio/Plug-Ins/HAL/RemoteHubAudio.driver
+# The preceding uninstaller may already have stopped CoreAudio. Its absence is
+# not an installation failure; the registration probe also wakes the service.
+if /usr/bin/pgrep -x coreaudiod >/dev/null 2>&1; then
+    if ! /usr/bin/killall -TERM coreaudiod; then
+        # It can exit between pgrep and killall. Preserve real restart errors.
+        if /usr/bin/pgrep -x coreaudiod >/dev/null 2>&1; then
+            echo 'Unable to restart the running audio service.' >&2
+            exit 1
+        fi
+    fi
+fi
+probe="$(dirname "$0")/audio-plugin-probe"
+attempt=0
+while [ "$attempt" -lt 15 ]; do
+    if "$probe" --system >/dev/null 2>&1; then
+        echo '10RemoteHub microphone is registered and ready.'
+        exit 0
+    fi
+    attempt=$((attempt + 1))
+    /bin/sleep 1
+done
+echo 'The microphone was installed but could not be activated. Save your work and restart the Mac, then check the input devices.' >&2
+exit 1
